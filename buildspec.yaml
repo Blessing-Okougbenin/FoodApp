@@ -15,3 +15,10 @@ phases:
   post_build:
     commands:
       - echo PostBuild Phase
+      
+artifacts:
+  files:
+    - '**/*'
+  discard-path: no
+  base-directory: build
+  
